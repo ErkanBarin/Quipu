@@ -1,0 +1,25 @@
+{
+  "name": "quipu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:login": "playwright test tests/login.spec.js",
+    "test:search": "playwright test tests/search.spec.js",
+    "test:addToCart": "playwright test tests/addToCart.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.8.2"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.1.0",
+    "csv-writer": "^1.6.0",
+    "faker": "^5.5.3"
+  }
+}
